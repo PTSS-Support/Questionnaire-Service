@@ -59,6 +59,10 @@
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-jdbc-postgresql</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkus</groupId>
             <artifactId>quarkus-junit5</artifactId>
             <scope>test</scope>
         </dependency>
@@ -238,8 +242,8 @@
                         <include>.gitignore</include>
                         </includes>
                         <!-- define the steps to apply to those files -->
-                        <trimTrailingWhitespace/>
-                        <endWithNewline/>
+                        <trimTrailingWhitespace />
+                        <endWithNewline />
                         <indent>
                         <tabs>true</tabs>
                         <spacesPerTab>4</spacesPerTab>
